@@ -1,13 +1,5 @@
 /*
 * ----------------------------------------------------------------------------------------
-Author       : Mannat Themes
-Template Name: Ultra - Responsive Resume & CV Template
-Version      : 1.0
-* ----------------------------------------------------------------------------------------
-*/
-
-/*
-* ----------------------------------------------------------------------------------------
 * 01.BAGIC CSS STYLE
 * 02.PRELOADER CCS STYLE
 * 03.NAVABAR CSS STYLE
@@ -371,6 +363,12 @@ a {
 /*========== 06 skill==========*/
 
 
+#skills{
+    padding:10px;
+    text-align: center;
+}
+
+
 .skill-chart {
     margin: 0px auto;
     color: #000;
@@ -381,87 +379,6 @@ a {
     margin-right: 5px;
 }
 /*========== /skill==========*/
-
-
-/*========== 07 education & experience==========*/
-.rs-round {
-    content: "";
-    position: absolute;
-    text-align: center;
-    height: 120px;
-    line-height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    left: 0px;
-    margin-left: -60px;
-    border: 10px solid rgba(255, 255, 255, 0.48);  
-}
-
-.rs-round i {
-    color: #fff;
-    font-size: 30px;
-}
-.time-line {
-    position: relative;
-}
-.time-line:before {
-    content: "";
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    width: 2px;
-    margin: 0 auto;
-    height: 80%;
-    top: 15px;
-}
-.rex-item{
-    padding-left: 0px;
-    text-align: left;
-    margin-left: 130px;
-    padding-top: 7px;
-}
-
-.rex-item h3 {
-    font-size: 22px;
-}
-.rex-item h4 {
-    font-size: 17px;
-    color: #4c5667;
-    letter-spacing: 1px;
-    margin-top: 10px;
-    margin-bottom: 20px;   
-}
-
-.rex-item p {
-    line-height: 24px;
-    font-size: 14px;
-}
-
-.rex-left {
-    padding-right: 80px;
-    text-align: right;
-}
-
-.rex-right {
-   
-    text-align: left;
-}
-
-.time-line .colam {
-    margin-bottom: 80px; 
-}
-
-.rs-round.second {
-    right: 0 !important;
-    left: auto !important;
-    margin-right: -60px !important;
-}
-
-.colam-tird {
-    margin-bottom: 0px;
-}
-
-/*========== /education & experience==========*/
 
 
 /*========== 08 portfolio==========*/

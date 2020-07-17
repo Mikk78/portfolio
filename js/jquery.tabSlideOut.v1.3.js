@@ -44,7 +44,7 @@
             settings.positioning = 'absolute';
         }
         
-        //ie6 doesn't do well with the fixed option
+        //doesn't do well with the fixed option
         if (document.all && !window.opera && !window.XMLHttpRequest) {
             settings.positioning = 'absolute';
         }
