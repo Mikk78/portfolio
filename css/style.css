@@ -398,27 +398,33 @@ a {
     margin-right: 5px;
 }
 
+.img_skill {
+    width:auto;
+    height:25px;
+    background-color: #FFFFFF;
+}
 /*========== /skill==========*/
 
 
 /*========== 07 portfolio==========*/
 
-
 #work .lrs-list-protfolio {
     text-align: center;
 }
+
 
 #work .lrs-list-protfolio .fil-cat {
     margin: 0 15px;
     padding: 0;
     font-weight: 500;
     cursor: pointer;
+
 }
 
 #work .lrs-projects {
     margin-top: 30px;
     position: relative;
-    display: inline-block;
+    display: inline-table;
     -webkit-column-count: 3;
     /* Chrome, Safari, Opera */
     -moz-column-count: 3;
@@ -443,6 +449,7 @@ a {
 
 #work .lrs-projects .lrs-project .lrs-project-image {
     position: relative;
+    display: inline-block;
 }
 
 #work .lrs-projects .lrs-project .lrs-project-image * {
@@ -470,12 +477,14 @@ a {
 }
 
 #work .lrs-projects .lrs-project .lrs-project-content .lrs-project-title {
+    font-size: 40px;
     margin-top: -50px;
     text-transform: uppercase;
 }
 
 #work .lrs-projects .lrs-project .lrs-project-content .lrs-project-client {
     margin-top: 100px;
+    font-size: 30px;
     text-decoration: none;
     color: #26a69a;
 }
